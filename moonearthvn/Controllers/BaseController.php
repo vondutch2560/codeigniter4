@@ -35,6 +35,7 @@ class BaseController extends Controller
 	{
 		// Do Not Edit This Line
 		parent::initController($request, $response, $logger);
+		date_default_timezone_set("Asia/Ho_Chi_Minh");
 
 		//--------------------------------------------------------------------
 		// Preload any models, libraries, etc, here.
